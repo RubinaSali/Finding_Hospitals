@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Finding Hospital]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edges"/>
+  <test thread-count="5" name="Hackathon(failed)">
+    <classes>
+      <class name="com.cognizant.hackathon.FindingHospitals.AppTest">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="Test"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.cognizant.hackathon.FindingHospitals.AppTest -->
+    </classes>
+  </test> <!-- Hackathon(failed) -->
+</suite> <!-- Failed suite [Finding Hospital] -->
